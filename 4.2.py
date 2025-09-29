@@ -25,6 +25,6 @@ k = 9
 ciphertext, mapping = caesar_shift(plaintext, k)
 
 print("Plaintext:", plaintext)
-print("Shift k =", k)
+print("k =", k)
 print("Ciphertext:", ciphertext)
 
