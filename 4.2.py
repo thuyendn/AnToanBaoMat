@@ -27,10 +27,4 @@ ciphertext, mapping = caesar_shift(plaintext, k)
 print("Plaintext:", plaintext)
 print("Shift k =", k)
 print("Ciphertext:", ciphertext)
-print("\nMapping (char -> index -> shifted_char -> shifted_index):")
-for item in mapping:
-    ch, orig_idx, new_ch, new_idx = item
-    if orig_idx is None:
-        print(f"{ch} -> non-letter (unchanged)")
-    else:
-        print(f"{ch} -> {orig_idx} -> {new_ch} -> {new_idx}")
+
