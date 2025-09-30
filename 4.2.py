@@ -20,7 +20,7 @@ def caesar_shift(text, k):
     return ''.join(result), mapping
 
 plaintext = "NguyenDoanThuyen"
-k = 9
+k = 8
 
 ciphertext, mapping = caesar_shift(plaintext, k)
 
